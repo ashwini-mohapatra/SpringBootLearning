@@ -27,7 +27,7 @@ public class RealServices {
     }
 
     public void updateReal(Real topics){
-        
+        realRepository.save(topics);
         // for(int i=0;i<this.topics.size();i++){
         //     Real t=this.topics.get(i);
         //     if(t.getId().equals(topics.id)){
